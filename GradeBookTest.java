@@ -57,16 +57,7 @@ class GradeBookTest {
 
 	@Test
 	void testFinalScore() {
-		fail("Not yet implemented");
-	}
-
-	@Test
-	void testGetScoreSize() {
-		fail("Not yet implemented");
-	}
-
-	@Test
-	void testToString() {
-		fail("Not yet implemented");
+		assertEquals(130, g1.finalScore(), .01);
+		assertEquals(155, g2.finalScore(), .01);
 	}
 }
